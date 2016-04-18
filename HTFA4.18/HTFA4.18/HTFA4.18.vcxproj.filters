@@ -13,6 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\并发接入">
+      <UniqueIdentifier>{0e7d3b27-62d0-4ef8-979e-f7e59ae98dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\图像分析">
+      <UniqueIdentifier>{de16d6b7-f5e2-4968-825b-d0600f5fbca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据存储类">
+      <UniqueIdentifier>{f083f78f-3819-4ce8-aa6f-8fb1a3509e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\程序界面">
+      <UniqueIdentifier>{7fdd06a9-757f-4c4e-a620-c75296abf734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Globals">
+      <UniqueIdentifier>{346fd74b-d14c-4e2a-bbac-7183055f56ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\程序界面">
+      <UniqueIdentifier>{c4adb9d4-a0c0-4fbf-804a-27f70f61e8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\数据存储类">
+      <UniqueIdentifier>{7dc85e29-122f-4a6c-9265-0000ec684c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\并发接入">
+      <UniqueIdentifier>{34ec27e4-320a-455a-8655-824480fb23f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\图像分析">
+      <UniqueIdentifier>{9cc5399a-5526-45da-9c81-bc3a291d8982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\资源">
+      <UniqueIdentifier>{2fed3c02-5412-4772-b6ff-8b3f80b59933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Globals">
+      <UniqueIdentifier>{3ec1fcc8-9fd8-4ac8-9cb7-beb82f1302b2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
@@ -24,31 +57,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HTFA4.18.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="HTFA4.18Dlg.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\程序界面</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Globals</Filter>
     </ClInclude>
     <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="HTFA4.18.h">
+      <Filter>头文件\Globals</Filter>
     </ClInclude>
     <ClInclude Include="Resource.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\资源</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HTFA4.18.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="HTFA4.18Dlg.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\程序界面</Filter>
+    </ClCompile>
+    <ClCompile Include="HTFA4.18.cpp">
+      <Filter>源文件\Globals</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\Globals</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
