@@ -1,25 +1,22 @@
-﻿生成启动时间为 2016/4/18 21:49:31。
+﻿生成启动时间为 2016/4/18 21:52:21。
      1>项目“D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\HTFA4.18\HTFA4.18.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.pch" /Fo"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\\" /Fd"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\vc100.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.pch" /Fo"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\\" /Fd"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\vc100.pdb" /Gd /TP /errorReport:prompt HTFA4.18.cpp HTFA4.18Dlg.cpp
-         HTFA4.18Dlg.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.pch" /Fo"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\\" /Fd"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\vc100.pdb" /Gd /TP /errorReport:prompt HTFA4.18.cpp
          HTFA4.18.cpp
-         Generating Code...
        ResourceCompile:
          所有输出均为最新。
        ManifestResourceCompile:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.exe.embed.manifest.res" "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18_manifest.rc" 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Link\HTFA4.18\x64\HTFA4.18.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Lib\x64" /MANIFEST /ManifestFile:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Link\HTFA4.18\x64\HTFA4.18.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Link\HTFA4.18\x64\HTFA4.18.lib" /MACHINE:X64 "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.res"
          "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.exe.embed.manifest.res"
          "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.obj"
          "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18Dlg.obj"
          "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\stdafx.obj"
+         LINK : 没有找到 D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Link\HTFA4.18\x64\HTFA4.18.exe 或上一个增量链接没有生成它；正在执行完全链接
          HTFA4.18.vcxproj -> D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Link\HTFA4.18\x64\HTFA4.18.exe
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.exe.embed.manifest" /manifest "D:\Data\C++\项目\高速公路车流分析\HTFA\HTFA4.18\Temp\Compile\HTFA4.18\x64\HTFA4.18.exe.intermediate.manifest" "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
@@ -39,4 +36,4 @@
 
 生成成功。
 
-已用时间 00:00:14.38
+已用时间 00:00:01.64
