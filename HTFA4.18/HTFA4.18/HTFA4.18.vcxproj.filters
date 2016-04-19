@@ -55,6 +55,9 @@
     <None Include="res\HTFA4.18.ico">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="HelloWorld.htm">
+      <Filter>源文件\程序界面</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HTFA4.18Dlg.h">
@@ -72,6 +75,18 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件\资源</Filter>
     </ClInclude>
+    <ClInclude Include="FrameToBinary.h">
+      <Filter>头文件\图像分析</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoHandle.h">
+      <Filter>头文件\图像分析</Filter>
+    </ClInclude>
+    <ClInclude Include="CarIdenfity.h">
+      <Filter>头文件\图像分析</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionDetect.h">
+      <Filter>头文件\图像分析</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HTFA4.18Dlg.cpp">
@@ -82,6 +97,18 @@
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameToBinary.cpp">
+      <Filter>源文件\图像分析</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoHandle.cpp">
+      <Filter>源文件\图像分析</Filter>
+    </ClCompile>
+    <ClCompile Include="CarIdenfity.cpp">
+      <Filter>源文件\图像分析</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionDetect.cpp">
+      <Filter>源文件\图像分析</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

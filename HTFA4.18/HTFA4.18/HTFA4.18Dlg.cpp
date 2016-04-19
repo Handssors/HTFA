@@ -6,6 +6,7 @@
 #include "HTFA4.18.h"
 #include "HTFA4.18Dlg.h"
 #include "afxdialogex.h"
+#include "sciter/sciter-x.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -151,3 +152,31 @@ HCURSOR CHTFA418Dlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+LRESULT CHTFA418Dlg::WindowProc(UINT message, WPARAM wParam, LPARAM lParam)
+{
+	// TODO: 在此添加专用代码和/或调用基类
+	//
+	//Sciter过滤窗口消息，如果是Sciter引擎处理过的就直接返回
+		LRESULT lRet;
+	BOOL bHandled
+		= FALSE;
+	lRet
+		= SciterProcND(m_hWnd,message,wParam,lParam,&bHandled);
+	if (
+		bHandled )
+	{
+		return lRet;
+	}
+
+	//当窗口创建时，加载HTML文件
+	if (
+		message == WM_CREATE )
+	{
+		SciterLoadFile(m_hWnd,_T("HelloWorld.htm"));
+	}
+
+	
+	return CDialogEx::WindowProc(message, wParam, lParam);
+}
